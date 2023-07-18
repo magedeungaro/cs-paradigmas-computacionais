@@ -1,0 +1,7 @@
+version: '3'
+services:
+  python:
+    image: python:3.9.17-slim
+    command: /bin/bash -c "echo 'Go'"
+    volumes:
+      - ./exercises:/app
