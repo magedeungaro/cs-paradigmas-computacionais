@@ -1,6 +1,6 @@
 def compare_two_numbers(number_one, number_two):
     def response(greater, lesser, equals = False):
-        return  { 'greater': 'greater', 'lesser': lesser, 'equals': equals }
+        return  { 'greater': greater, 'lesser': lesser, 'equals': equals }
 
     if number_one == number_two:
         return response(number_one, number_two);
