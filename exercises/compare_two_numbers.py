@@ -9,7 +9,7 @@ def compare_two_numbers(number_one, number_two):
 
 def result_message(result):
     if result['equals']:
-        return "Both number are equal";
+        return "Both numbers are equal";
 
     return f"{result['greater']} is greater than {result['lesser']}";
 
