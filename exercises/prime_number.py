@@ -2,7 +2,8 @@ def is_prime_iterative(number):
     if number <= 1:
         return False;
 
-    for i in range(2, number):
+    limit = (number // 2) + 1;
+    for i in range(2, limit):
         if number % i == 0:
             return False;
     return True;
