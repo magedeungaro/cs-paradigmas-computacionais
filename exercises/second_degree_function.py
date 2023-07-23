@@ -31,7 +31,7 @@ def run_prompt():
 def main():
     a, b, c = run_prompt();
     print(f"{a}x^2 + {b}x + {c}");
-    print(f"roots = {second_degree_function(a, b, c)}");
+    print(f"real number roots = {second_degree_function(a, b, c)}");
 
 main();
 
