@@ -3,7 +3,7 @@
 Para rodar os exercícios:
 
 ```
-$ sudo docker compose run python bash
-root@12345:/# cd app
+$ sudo docker compose up -d
+$ docker compose run python bash
 root@12345:/app# python exercise.py
 ```
